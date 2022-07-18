@@ -38,38 +38,40 @@ function FriendStatuses(): JSX.Element {
         <StatusItem
           username={"biz"}
           content={"having some coffee"}
-          emoji={'⭐'}
-          timeAgo={{n:36, unit: "minutes"}}
-          />
+          emoji={"⭐"}
+          timeAgo={{ n: 36, unit: "minutes" }}
+        />
         <StatusItem
           username={"Courtney"}
           content={"multi-tasking audio debug audio coding"}
-          emoji={'⭐'}
-          timeAgo={{n:9, unit: "hours"}}
+          emoji={"⭐"}
+          timeAgo={{ n: 9, unit: "hours" }}
         />
         <StatusItem
           username={"Jack"}
-          content={"antasizing about jack drawing naked people mmmmmmmmmmmmm..... naked people."}
-          emoji={'◻️'}
-          timeAgo={{n:21, unit: "hours"}}
+          content={
+            "antasizing about jack drawing naked people mmmmmmmmmmmmm..... naked people."
+          }
+          emoji={"◻️"}
+          timeAgo={{ n: 21, unit: "hours" }}
         />
         <StatusItem
           username={"noah"}
           content={"Oh crap, I think I might be getting that f'in cold"}
-          emoji={'⭐'}
-          timeAgo={{n:21, unit: "hours"}}
+          emoji={"⭐"}
+          timeAgo={{ n: 21, unit: "hours" }}
         />
         <StatusItem
           username={"asruge"}
           content={"put some rss on my mp3"}
-          emoji={'⭐'}
-          timeAgo={{n:22, unit: "hours"}}
+          emoji={"⭐"}
+          timeAgo={{ n: 22, unit: "hours" }}
         />
         <StatusItem
           username={"crystal"}
           content={"in the musicals"}
-          emoji={'⭐'}
-          timeAgo={{n:1, unit: "days"}}
+          emoji={"⭐"}
+          timeAgo={{ n: 1, unit: "days" }}
         />
         <li>
           ⭐ <a href="#">crystal</a>: in the musicals <small>1 day ago</small>

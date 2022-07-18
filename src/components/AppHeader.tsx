@@ -5,11 +5,11 @@ function AppHeader(): JSX.Element {
     <header>
       <h2>twitter</h2>
       <nav>
-        <NavItem label={'updates'} />
-        <NavItem label={'archive'} />
-        <NavItem label={'preferences'}/>
-        <NavItem label={'help'}/>
-        <NavItem label={'sign-out'}/>
+        <NavItem label={"updates"} />
+        <NavItem label={"archive"} />
+        <NavItem label={"preferences"} />
+        <NavItem label={"help"} />
+        <NavItem label={"sign-out"} />
       </nav>
     </header>
   );
